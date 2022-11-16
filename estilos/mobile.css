@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+:root {
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: 'Times New Roman', Times, serif;
+}
+
+div#D {
+    width: 100vw;
+    height: 30vh;
+    background: transparent url(../imagens/123d.jpg) center center no-repeat fixed;
+    background-size: contain;
+    
+}
+div#paradoxo1 {
+    width: 100vw;
+    height: 300px;
+    background: transparent url('../imagens/paradoxo_bid1.jpg') no-repeat fixed;
+    background-size: contain;
+    background-position: center center;
+}
+div#paradoxo2 {
+    width: 100vw;
+    height: 300px;
+    background: transparent url('../imagens/paradoxo_bid2.jpg') center center no-repeat fixed;
+    background-size: contain;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
