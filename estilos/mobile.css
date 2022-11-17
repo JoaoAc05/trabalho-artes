@@ -18,7 +18,7 @@ body {
 div#D {
     width: 100vw;
     height: 30vh;
-    background: transparent url(../imagens/123d.jpg) center center no-repeat fixed;
+    background: transparent url(../imagens/123d.jpg) center center no-repeat scroll;
     background-size: contain;
     
 }
