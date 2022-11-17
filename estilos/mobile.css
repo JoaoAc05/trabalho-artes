@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
     width: 100vw;
@@ -13,6 +14,60 @@ body {
 :root {
     --font0: Arial, Helvetica, sans-serif;
     --font1: 'Times New Roman', Times, serif;
+    --font2: 'Pacifico', cursive;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    padding: 5px;
+    background: #000079d3;
+    box-shadow: 0px 2px 5px #00003380;
+    color: rgba(255, 255, 255, 0.815);
+    margin-bottom: 10px;
+    font-family: var(--font0);
+}
+header h1 {
+    text-align: center;
+    font-size: 7vw;
+    font-family: var(--font2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.205);
+}
+header p {
+    font-size: 1.1em;
+    font-family: var(--font2);
+    text-align: center;
+    color: #ffffff71;
+}
+
+menu a {
+    padding: 5px;
+    margin-right: 15px;
+    
+    text-align: left;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover {
+    display: inline-block;
+    background: #ffffff27;
+    
+    border: 1px solid #00000080;
+    border-radius: 5px;
+    transition: 0.4s;
+    transform: translate(0px, -3px);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.212);
+}
+
+h2 {
+    padding: 5px 0px 5px 10px;
+    font-size: 1.7em;
+    color: #000077d3;
+    background-image: linear-gradient(to right, #00007960, #ffffffe3 50%);
 }
 
 div#D {
@@ -23,19 +78,68 @@ div#D {
     
 }
 div#paradoxo1 {
+    padding-top: 1px;
     width: 100vw;
     height: 300px;
-    background: transparent url('../imagens/paradoxo_bid1.jpg') no-repeat fixed;
-    background-size: contain;
+    background: transparent url('../imagens/brinco_perola.png') no-repeat fixed;
+    background-size: cover;
     background-position: center center;
 }
+div#paradoxo1 p {
+    width: 300px;
+    margin: 20px 10px 10px 10px ;
+    padding: 20px;
+    background: #ffffff3d;
+    color: #000079;
+
+    font-family: var(--font0);
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
 div#paradoxo2 {
     width: 100vw;
     height: 300px;
-    background: transparent url('../imagens/paradoxo_bid2.jpg') center center no-repeat fixed;
-    background-size: contain;
+    padding-top: 1px;
+    background: transparent url('../imagens/ceu_estrelado.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+div#paradoxo2 p {
+    width: 300px;
+    margin: 20px 10px 10px 10px;
+    padding: 20px;
+    background: #00000067;
+    color: #f0f0ff;
 }
 
-::-webkit-scrollbar {
-    display: none;
+p {
+    margin: 10px;
+    padding: 10px;
+    font-family: var(--font0);
+    font-size: 1.1em;
+    font-weight: lighter;
+    line-height: 30px;
+    text-align: justify;
+}
+
+footer {
+    padding: 25px;
+    font-family: var(--font2);
+    font-size: 1.2em;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #000079a9 10%, #00007933);
+}
+footer p {
+    text-align: center;
+}
+
+footer p:hover {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.37);
+}
+
+img {
+    width: 100vw;
+    height: 300px;
 }
