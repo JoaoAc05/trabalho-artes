@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: 'Pacifico', cursive;
+}
+
+header {
+    padding: 15px;
+    background: #000000;
+    color: #ffffff;
+    box-shadow: 0px 2px 3px #00000067;
+    text-align: center;
+} 
+header h1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: var(--font1);
+    font-size: 7vw;
+}
+header p {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #ffffffd3;
+}
+header a {
+    margin-right: 15px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+header menu {
+    margin-top: 15px;  
+    color: #ffffff;
+    text-align: left;
+    font-size: 1.1em;
+}
+menu a {
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+menu a:hover {
+    display: inline-block;
+    background: #ffffff3b;
+    transition: 0.5s;
+    transform: translate(15px, 0px );
+}
+
+section#img01 {
+    background: transparent url(../imagens/background001.jpg) fixed center right no-repeat;
+    background-size: cover;
+}
+section#img02 {
+    background: transparent url(../imagens/background002.jpg) fixed center no-repeat;
+    background-size: cover;
+}
+section.img p {
+    width: 300px;
+    padding: 10px;
+    background: #00000062;
+    color: #ffffff;
+    
+    text-align: center;
+    font-size: 5vw;
+    font-family: var(--font1);
+    font-weight: bold;
+    line-height: 35px;
+}
+section.norm p {
+    text-align: justify;
+    font-size: 5vw;
+    font-family: var(--font1);
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 20px 0px 15px 0px;
+    background-image:linear-gradient(to top, #0000008f, #ffffff);
+    text-align: center;
+    font-size: 1.4em;
+}
+footer p {
+    padding: 10px;
+}
+footer a {
+    padding: 5px 10px 10px 10px;
+    color: #00006e;
+    border-radius: 5px;
+}
+footer a:hover {
+    background: #ffffff3b;
+    border: 1px dashed #000000;
+}
