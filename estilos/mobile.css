@@ -175,3 +175,7 @@ footer a {
     padding: 7px;
     color: #ffffff;
 }
+ol {
+    font-size: 1.2em;
+    padding: 25px;
+}
