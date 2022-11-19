@@ -74,7 +74,7 @@ section.img p {
     line-height: 35px;
 }
 section.norm p {
-    text-align: justify;
+    text-align: center;
     font-size: 5vw;
     font-family: var(--font1);
     font-weight: bold;
