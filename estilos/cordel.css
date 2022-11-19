@@ -64,6 +64,7 @@ section#img02 {
 section.img p {
     width: 300px;
     padding: 10px;
+    margin: auto;
     background: #00000062;
     color: #ffffff;
     
